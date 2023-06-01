@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sft"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Verbilo <verbiloilyaa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+django-environ = "^0.10.0"
+django-debug-toolbar = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
