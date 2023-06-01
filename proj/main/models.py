@@ -3,7 +3,7 @@ from django.utils import timezone
 
 
 class CreatedAt(models.Model):
-    created_at = models.DateTimeField(auto_now_add=True, blank=True, verbose_name='Дата создания')
+    created_at = models.DateTimeField(auto_now_add=True, editable=True, blank=True, verbose_name='Дата создания')
 
     def __str__(self):
         return self.name
